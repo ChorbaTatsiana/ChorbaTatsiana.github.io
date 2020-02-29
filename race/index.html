@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Game-Race</title>
+</head>
+
+<body>
+        <div class="wrapper">
+                <ul class="button-main-menu">
+                        <li><input type="button" id="button-rules" value="ПРАВИЛА" class="button-rules"></li>
+                        <li><input type="button" id="button" value="СТАРТ" class="button"></li>
+                        <li><input type="button" id="button-stop" value="ПАУЗА" class="button-stop"></li>
+                        <li><input type="button" id="button-records" value="РЕКОРДЫ" class="button-records"></li>
+                </ul>
+                <div id="distance" class="distance">distance:</div>
+                <div class="animation-rules" id="animation-rules">
+                        <h1>ПРАВИЛА ИГРЫ</h1>
+                        <p> Игрок управляет машинкой во время движения. На дороге появляются препятствия в
+                                виде других машинок, игрок должен их объезжать. Если машинка врезается
+                                в препятствие, наступает конец игры.
+                                Лучшим игроком становится игрок, проехавший наибольшее расстояние. </p>
+                        <button class="close-rules" id="close-rules">Свернуть</button>
+                </div>
+                <div class="game-over" id="game-over">
+                        <h2 class="heading-game-over">GAME OVER</h2>
+                        <p id="distance-player" class="distance-player"></p>
+                        <form method="POST" action="">
+                                <label>Ваше имя:<input type="text" id="name-player"></label>
+                                <input type="button" class="button-save" id="button-save" value="сохранить">
+                                <br>
+                                <input type="button" id="button-new-game" class="button-new-game" value="НОВАЯ ИГРА">
+                        </form>
+                </div>
+                <div class="field-records" id="field-records">
+                        <div id="write-table-Records"></div>
+                        <button class="close-records" id="close-records">Свернуть</button>
+                </div>
+                <div class="wrapper-for-button-ipad" id="wrapper-for-button-ipad">
+                        <button class="arrow-up" id="arrow-up">&#8593</button><br>
+                        <button class="arrow-left" id="arrow-left">&#8592</button>
+                        <button class="arrow-down" id="arrow-down">&#8595</button>
+                        <button class="arrow-right" id="arrow-right">&#8594</button>
+
+                </div>
+                <!--холст ведёт себя как изображение. У него есть фактическое и видимое разрешение.
+                С помощью стилей меняется видимое разрешение. Однако при этом размеры картинки останутся прежними: она просто растянется или сожмётся-->
+                <canvas width="0" height="0" id="canvas" class="canvas">Ваш браузер не поддерживает javascript</canvas>
+        </div>
+        <script src="https://fe.it-academy.by/JQ/jquery.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.button-main-menu {
+    margin: 1%;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button-main-menu li {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.button-main-menu li input {
+    border-radius: 6px;
+    background-color: rgb(79, 124, 65);
+    width: 70px;
+    height: 40px; 
+}
+
+input:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0, 0.9);
+}
+
+.animation-rules {
+    position: absolute;
+    background-color: aquamarine;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    padding: 20px;
+    font-size: 1.3em;
+    text-align: justify;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.animation-rules h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.close-rules {
+    border: solid red 1px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: red;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.distance {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    height: 40px;
+    background: #ccc;
+    text-align: center;
+    font-size: 31px;
+    border: solid gray 1px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold; 
+}
+
+div.field-records {
+    position: absolute;
+    background-color: rgb(156, 141, 141);
+    border: solidrgb(207, 204, 204) 1px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 0;
+    font-size: 1.8rem;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    margin-top: 20px;
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+}
+
+.game-over {
+    position: absolute;
+    background-color: rgb(156, 141, 141);
+    background-image: url("../img/bgrGameWrapper.png");
+    background-size: 100% 100%;
+    border: solidrgb(207, 204, 204) 1px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 0;
+    font-size: 2rem;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.game-over label {
+    background-color: rgb(207, 204, 204);
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.distance-player {
+    border: solid 1px;
+    border-radius: 5px;
+    background-color:  rgb(207, 204, 204);
+    margin: 20px 100px 20px 80px;
+}
+
+.button-save {
+    background-color: rgb(207, 204, 204);
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.close-records {
+    background-color: rgb(207, 204, 204);
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.button-new-game {
+    font-size: 20px;
+    border: solid;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 50px;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+}
+
+.wrapper-for-button-ipad{
+    position: absolute;
+    right: 25%;
+    bottom: 30px;
+    margin-right: -109px;
+    display: none;
+}
+
+.wrapper-for-button-ipad button {
+    border: solid 1px;
+    border-radius: 5px;
+    background-color:  rgb(207, 204, 204);
+    text-align: center;
+    width: 70px;
+    height: 30px;
+}
+
+.canvas {
+    width: 100%;  /*размеры картинки останутся прежними: она просто растянется или сожмётся*/
+    height: 100%;
+}
+
+@media all and (max-width: 1024px) {
+    .wrapper-for-button-ipad{
+        display: block;
+    }
+
+    .arrow-up {
+        margin: 0 auto;
+        display: block;
+    }
+}    
+@media all and (max-width: 768px) {
+    .button-main-menu li {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .button-main-menu li input {
+        width: 70px;
+        height: 30px; 
+    }
+
+    .distance {
+        width: 150px;
+        height: 30px;
+        font-size: 21px;
+        margin: 10px;
+    }
+
+    div.field-records {
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+    .game-over {
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (max-width: 675px) {
+    div.field-records {
+        font-size: 0.8rem;
+    }
+}    
+
