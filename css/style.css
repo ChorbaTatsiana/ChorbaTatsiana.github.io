@@ -1,0 +1,457 @@
+/* спецификация */
+
+@font-face {
+    font-family: "YesevaOne";
+    src: local(Arial);
+    src: url("../fonts/yeseva/YesevaOne-Regular_v2.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local(Arial);
+    src: url("../fonts/lato/Lato-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Lato";
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+i {
+    padding-right: 10px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+/* header */
+
+.contact-icons {
+    background-color: #ffcb0f;
+}
+
+.opening-hours {
+    justify-content: flex-end;
+}
+.opening-hours__time {
+padding-left: 24px;
+}
+
+.logo-nav {
+    background-color: #222533;
+}
+
+.contact {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.contact__item {
+    padding-left: 20px;
+}
+
+.logotip__title {
+    font-family: "YesevaOne";
+    color: #00cb0f;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.logotip__text {
+    color: #a0a0a2;
+    font-size: 12px;
+}
+
+.navigation {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation__site {
+    display: flex;
+}
+
+.navigation__site_item{
+    padding-right: 10px;
+}
+
+.navigation__site_ref {
+    color: #a0a0a2;
+}
+
+/* main-banner */
+
+.main-banner {
+    background-image: linear-gradient(to bottom, black 0%, transparent 70%), url("../img/header/bg-img-header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main__title {
+    color: #ffcb0f;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "YesevaOne";
+}
+
+.main__text {
+    color: #00cb0f;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "YesevaOne";
+    padding: 30px;
+    text-shadow: 1px 1px 1px black, 0 0 1em yellow;
+}
+
+/* repair-excavator */
+
+.repair-excavator {
+    background-image:linear-gradient(to bottom, white 0%, transparent 10%), url("../img/retair-excavator/construction-tractor-excavator-site-4510.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 35px;
+}
+/* background: rgba(255, 255, 255, 0.8); Полупрозрачный фон */
+
+h2 {
+    color: #ffcb0f;
+    font-size: 2.06rem;
+    font-family: "YesevaOne";
+}
+
+h3 {
+    font-size: 1.74rem;
+    font-family: "Lato";
+    margin-bottom: 50px;
+}
+
+.repair-excavator__list {
+    text-align: left;
+    background-color: white;
+    opacity: 65%;
+    padding: 10px;
+}
+
+.repair-excavator__list li {
+    display: flex;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 1.24rem;
+    font-family: "Lato";
+    color: black;
+    font-weight: bold;
+}
+
+.repair-excavator__list_item1::before {
+    content: url("../img/repair-excavator/first-img.png");
+    margin-right: 20px;
+}
+
+.repair-excavator__list_item2::before {
+    content: url("../img/repair-excavator/second-img.png");
+    margin-right: 20px;
+}
+
+.repair-excavator__list_item3::before {
+    content: url("../img/repair-excavator/tree-img.png");
+    margin-right: 20px;
+}
+
+/* repair-bridge */
+
+.repair-bridge {
+    background-image: url("../img/repair-bridge/bg-img-bridge.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.repair-bridge h3 {
+    color: #fff;
+}
+
+.repair-bridge__about {
+    font-size: 1.34rem;
+    font-family: "Lato";
+    color:black;
+}
+.repair-bridge__list {
+    text-align: left;
+    background-color: white;
+    opacity: 65%;
+    padding: 10px;
+}
+
+.repair-bridge__list li {
+    display: flex;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 1.24rem;
+    font-family: "Lato";
+}
+
+.repair-bridge__list_item1::before {
+    content: url("../img/repair-bridge/repair-bridge-first.png");
+    margin-right: 20px;
+}
+
+.repair-bridge__list_item2::before {
+    content: url("../img/repair-bridge/repair-bridge-second.png");
+    margin-right: 20px;
+}
+
+.repair-bridge__list_item3::before {
+    content: url("../img/repair-bridge/repair-bridge-three.jpg");
+    margin-right: 20px;
+}
+
+/*form-contact */ 
+
+.form-contact {
+    background-color: #ffcb0f;
+    padding-top: 40px;
+    height: 200px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+h2 {
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+h3 {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px bisque, 0 0 1em bisque;
+}
+
+/* contact-all */
+
+.contact-all {
+    background-color: #656972;
+    height: 150px;
+    color: #ffcb0f;
+    font-size: 1.46rem;
+    font-family: "YesevaOne";
+    display: flex;
+    align-items: center;
+}
+
+.contact-all a {
+    color: #ffcb0f;
+}
+
+/* footer */
+
+footer {
+    background-color: #222533;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.begin { 
+    background-color: #656972;
+    color: #fff;
+    border: #ffcb0f solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+/* p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px black, 5em 5em 9em yellow;
+    box-shadow: aqua;
+    box-shadow: 0 0 11px white(1,1,0.9,0.9);
+    opacity: none;
+    font-weight: bold;
+} */
+/* media */
+
+@media all and (max-width: 768px) {
+
+    h3 {
+        font-size: 1.2rem;
+    }
+    .repair-excavator__list li {
+        font-size: 1rem;
+    }
+    
+    .repair-bridge__list li {
+        font-size: 0.8rem;
+    }
+    
+    .opening-hours {
+        padding-left: 20px;
+    }
+
+    .contact-all {
+        font-size: 1rem;
+    }    
+}
+
+
+@media all and (max-width: 576px) {
+    body {
+        line-height: 1;
+    }
+    
+    /* menu-burger */
+    
+    .navigation {
+        position: relative;
+        padding-top: 0;
+    }
+    
+    .burger {
+        height: 2px;
+        width: 25px;
+        background-color:  #ffcb0f;
+        position: relative;
+        border-radius: 8px;
+        margin-top: -30px;
+    }    
+    .burger::before {
+        content: " ";
+        position: absolute;
+        display: block;
+        height: 2px;
+        width: 25px;
+        background-color: #ffcb0f;
+        border-radius: 8px;
+        left: 0;
+        top: 7px;
+        margin-top: -20px;
+    
+    }
+    .burger::after {
+            content: " ";
+            position: absolute;
+            display: block;
+            height: 2px;
+            width: 25px;
+            background-color:  #ffcb0f;
+            border-radius: 8px;
+            left: 0;
+            top: 14px;
+            margin-top: -20px;
+    }
+    
+    .burger-trigger {
+        display: block;
+        position: absolute;
+        top: -7px;
+        left: -2px;
+        height: 30px;
+        width: 30px;
+        border: 3px solid  #ffcb0f;
+        margin-top: -13px;
+    }
+
+    .navigation__site {
+        position: relative;
+        font-size: 0.72rem;
+        display: none;
+        flex-direction: column;
+        letter-spacing: normal;
+        margin-top: -50px;
+        margin-left: -27px;
+    }
+
+    .navigation__site-opened {
+        display: flex;
+        background: #495057;
+    }
+
+    .navigation__site_ref {
+        padding: 10px;
+        font-size: 1.5em;
+        justify-content: flex-end;
+    }
+    
+    .main-banner {
+        height: 250px;
+        padding-top: 20px;
+    }
+
+    .main__title {
+        font-size: 20px;
+    }
+
+    .main__text {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.46rem;
+        text-shadow: 1px 1px 2px black, 0 0 1em black;
+    }
+    h3 {
+        font-size: 1rem;
+        font-weight: bold;
+       text-shadow: 1px 1px 1px bisque, 0 0 1em bisque;
+    }
+    ul {
+        padding-left: 5px;
+    }
+}
+
+@media all and (max-width:320px) {
+    
+    .navigation__site-opened {
+        padding: 5px;
+    }
+
+    .contact-icons {
+        font-size: 10px;
+    }
+
+    .main-banner {
+        height: 200px;
+    }
+
+    .repair-excavator__list li {
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.64rem;
+        padding-bottom: 0;
+    }
+    h3 {
+        margin-bottom: 5px;
+    }
+
+    .repair-bridge__list li {
+        flex-direction: column;
+        padding-bottom: 0;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    legend {
+        font-size: 1rem;
+    }    
+}
+
+
