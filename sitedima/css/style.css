@@ -189,7 +189,7 @@ h3 {
 }
 
 .repair-bridge h3 {
-    text-shadow: 1px 1px 1px grey, 0 0 1em lightyellow;
+    color: #fff;
 }
 
 .repair-bridge__about {
