@@ -447,6 +447,10 @@ footer {
         font-size: 0.64rem;
         padding-bottom: 0;
     }
+    h2 {
+        font-size: 1rem;
+    }
+        
     h3 {
         font-size: 12px;
         margin-bottom: 5px;
