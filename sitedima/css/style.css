@@ -163,7 +163,7 @@ h3 {
 }
 
 .repair-excavator__list_item1::before {
-    content: url("../img/repair-excavator/first-img.jpg");
+    content: url("../img/repair-excavator/first-img.png");
     margin-right: 20px;
 }
 
@@ -288,6 +288,9 @@ footer {
 /* media */
 
 @media all and (max-width: 768px) {
+    .main__title {
+        font-size: 1.4em;
+    }    
 
     h3 {
         font-size: 1.2rem;
@@ -423,7 +426,7 @@ footer {
 @media all and (max-width:380px) {
 
     .main__title {
-        font-size: 16px;
+        font-size: 13px;
     }
     
     .navigation__site-opened {
@@ -445,6 +448,7 @@ footer {
         padding-bottom: 0;
     }
     h3 {
+        font-size: 12px;
         margin-bottom: 5px;
     }
     .repair-bridge {
