@@ -163,7 +163,7 @@ h3 {
 }
 
 .repair-excavator__list_item1::before {
-    content: url("../img/repair-excavator/first-img.png");
+    content: url("../img/repair-excavator/first-img.jpg");
     margin-right: 20px;
 }
 
