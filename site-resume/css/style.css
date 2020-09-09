@@ -25,15 +25,14 @@ p {
   background-color: #39383a;
   color: white;
 }
-
-.profile__foto-avtor {
+.wrapper-img {
+  width: 145px;
+  height: 150px;
   border-radius: 50%;
-  transform: rotate(90deg);
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin: 15px auto;
-  display: flex;
+  background: url(../img/foto.JPG) no-repeat -5px 0;
+  background-size: auto 200px;
+  margin: 10px auto;
+  
 }
 
 .profile__main, .education {
