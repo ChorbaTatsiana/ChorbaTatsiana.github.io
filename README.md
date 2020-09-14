@@ -55,7 +55,8 @@ Additional Information
 Portfolio: 	https://chorbatatsiana.github.io/site-resume/index.html
 rmtech.by
 https://fitblock.wordpress.com/
-# Professional interests: reading sites: ​«Современный учебник JavaScript»​,  ​webref.ru​, ru.stackoverflow.com codewars.com, books: “Head First Java”, ​"​Eloquent JavaScript​"  
+# Professional interests:
+reading sites: ​«Современный учебник JavaScript»​,  ​webref.ru​, ru.stackoverflow.com codewars.com, books: “Head First Java”, ​"​Eloquent JavaScript​"  
 
 
 # Reason for applying for a job  
